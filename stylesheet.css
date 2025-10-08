@@ -6,12 +6,12 @@ body {
 }
 
 /*Font settings*/
-h1, h2, p {
+h1, h2, p, ul {
     color: white;
     font-family:sans-serif
 }
 
 .text_container {
     
-    background-color: black;
+    
 }
