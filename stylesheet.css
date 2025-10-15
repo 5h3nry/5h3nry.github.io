@@ -1,3 +1,7 @@
+html {
+    overflow: auto;
+}
+
 /*Background Gradient*/
 body {
     /* fallback for old browsers */
@@ -21,16 +25,35 @@ h1 {
     text-align: center;
 }
 
+.card {
+    background: #56837c;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+
+    margin: 10%;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.card h1,
+h2,
+p {
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
 .avatar {
     background-color: #aa4b6b;
     border-radius: 50%;
     border-color: white;
     border-width: 5px;
     border-style: solid;
-}
-
-.card:hover {
-  box-shadow: 0 8px 30px 0 rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
 }
 
 /* Class to center images*/
@@ -38,20 +61,4 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.card {
-    background: #56837c;
-
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-
-    margin: 10%;
-    border-radius: 20px;
-    width: 75%;
-}
-
-.card h1, h2, p {
-    margin: 30px;
 }
