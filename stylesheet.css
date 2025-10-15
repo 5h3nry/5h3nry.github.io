@@ -1,12 +1,25 @@
 /*Background Gradient*/
 body {
-    background: #aa4b6b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #56837c, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* fallback for old browsers */
+    background: #aa4b6b;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);
 }
 
 /*Font settings*/
-h1, h2, p, ul {
+h1,
+h2,
+p,
+ul {
     color: white;
-    font-family:sans-serif
+    font-family: sans-serif;
+}
+
+#card {
+    fill: #56837c;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
