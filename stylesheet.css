@@ -37,8 +37,15 @@ h1 {
     margin-bottom: 2%;
 
     border-radius: 20px;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-style: dashed;
+
     width: 450px;
-    height: 600px;
+    height: 100%;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .card h1,
@@ -48,30 +55,46 @@ p {
 }
 
 .card:hover {
-    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.6);
 }
 
 .avatar {
+    position: relative;
     background-color: #aa4b6b;
     border-radius: 50%;
     border-color: white;
     border-width: 5px;
     border-style: solid;
+
 }
 
 .avatar:hover {
     rotate: 360deg;
-    transition: 1s;
+    transition: 0.6s;
 }
 
 #name {
-    margin-top: 30px;
+    font-size: 45px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .button {
-    fill: #ffffff;
-    border-radius: 50%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: 0.3s;
 }
 
 /* Class to center images*/
