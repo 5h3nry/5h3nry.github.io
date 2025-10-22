@@ -25,6 +25,11 @@ h1 {
     text-align: center;
 }
 
+
+.overflow {
+    overflow-y: scroll;
+
+}
 .card {
     background: #56837c;
 
@@ -59,7 +64,6 @@ p {
 }
 
 .avatar {
-    position: relative;
     background-color: #aa4b6b;
     border-radius: 50%;
     border-color: white;
