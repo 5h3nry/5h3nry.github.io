@@ -29,9 +29,10 @@ h1 {
 
 
 .overflow {
-    overflow-y: scroll;
+    overflow-y: hidden;
 
 }
+
 .card {
     background: #56837c;
 
@@ -99,7 +100,7 @@ p {
 .button:hover {
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(66,100,95, 0.75);
+    background-color: rgb(66, 100, 95, 0.75);
     transition: 0.3s;
 }
 
@@ -110,7 +111,7 @@ p {
     margin-right: auto;
 }
 
-#speedvid iframe{
+#speedvid iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
