@@ -7,15 +7,26 @@ html {
 /*Background Gradient*/
 body {
     /* fallback for old browsers */
-    background: #aa4b6b;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 
     height: 100%;
     width: 100%;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}   
 
 /*Font settings*/
 h1,
@@ -37,7 +48,12 @@ h1 {
 }
 
 .card {
-    background: #56837c;
+        /* fallback for old browsers */
+    background: #aa4b6b;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #aa4b6b, #6b6b83, #56837c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #aa4b6b, #6b6b83, #56837c);
     
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -47,7 +63,7 @@ h1 {
 
     border-radius: 20px;
     border-width: 5px;
-    border-color: #42645f;
+    border-color: #fff;
     border-style: dashed;
 
     min-width: 450px;
