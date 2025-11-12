@@ -1,5 +1,7 @@
 html {
-    overflow: auto;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 /*Background Gradient*/
@@ -12,6 +14,9 @@ body {
     background: linear-gradient(to left, #56837c, #6b6b83, #aa4b6b);
 
     /*background-image: url("media/HD-Botanical8colors\ WALLPAPER.png");*/
+
+    height: 100%;
+    width: 100%;
 }
 
 /*Font settings*/
@@ -29,12 +34,15 @@ h1 {
 
 
 .overflow {
-    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
 .card {
     background: #56837c;
+    
+    display: flex;
+
 
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -49,11 +57,10 @@ h1 {
     border-color: #42645f;
     border-style: dashed;
 
-    width: 450px;
-    height: 100%;
+    min-width: 450px;
+    width: 50%;
+    height: 95%;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .card h1,
