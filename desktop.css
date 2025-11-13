@@ -6,9 +6,10 @@ html {
 
 /*Background Gradient*/
 body {
-	background: linear-gradient(-45deg, #56837c, #6B7578, #806774, #955970, #aa4b6b);
+	background: linear-gradient(-45deg, #5d8356, #56837c, #7c5683, #83565d);
+    background: linear-gradient(-45deg, #5d8356, #56837c, #7c5683, #83565d);
 	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	animation: gradient 7.5s ease infinite;
 	height: 100vh;
 
     height: 100%;
@@ -40,19 +41,9 @@ h1 {
     text-align: center;
 }
 
-
-.overflow {
-    overflow-x: hidden;
-
-}
-
 .card {
         /* fallback for old browsers */
-    background: #aa4b6b;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to left, #aa4b6b, #6b6b83, #56837c);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to left, #aa4b6b, #6b6b83, #56837c);
+    background: rgba(86,131,124, 0.65);
     
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -66,11 +57,11 @@ h1 {
     border-style: dashed;
 
     min-width: 450px;
-    width: 25%;
-    height: 90%;
+    min-height: none;
+    width: 25vw;
+    height: 85vh;
 
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0vh;
 }
 
 .card h1,
@@ -135,6 +126,4 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
-    border: 1px solid black;
 }
