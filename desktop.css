@@ -127,3 +127,9 @@ p {
     margin-right: auto;
     display: block;
 }
+
+.tomorrow-semibold {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
