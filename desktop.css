@@ -14,6 +14,8 @@ body {
 
     height: 100%;
     width: 100%;
+
+    cursor: url("media/cursors/1-Normal-Select.cur"), auto;
 }
 
 @keyframes gradient {
