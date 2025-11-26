@@ -6,8 +6,8 @@ html {
 
 /*Background Gradient*/
 body {
-	background: linear-gradient(-45deg, #5d8356, #56837c, #7c5683, #83565d);
-    background: linear-gradient(-45deg, #5d8356, #56837c, #7c5683, #83565d);
+	background: linear-gradient(-45deg, #5d8356, #416963, #7c5683, #83565d);
+    background: linear-gradient(-45deg, #5d8356, #416963, #7c5683, #83565d);
 	background-size: 400% 400%;
 	animation: gradient 7.5s ease infinite;
 	height: 100vh;
@@ -140,4 +140,8 @@ p {
   font-family: "Tomorrow", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.card p,li{
+    font-size: 1.75rem;
 }
