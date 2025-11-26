@@ -108,6 +108,9 @@ p {
     width: fit-content;
     padding: 10px;
     transition: 0.3s;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .button:hover {
@@ -115,6 +118,9 @@ p {
     padding-right: 30px;
     background-color: rgb(66, 100, 95, 0.75);
     transition: 0.3s;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
 }
 
 /* Class to center images*/
