@@ -44,7 +44,7 @@ h1 {
 }
 
 .card {
-        /* fallback for old browsers */
+    /* fallback for old browsers */
     background: rgba(86,131,124, 0.65);
     
     /* Add shadows to create the "card" effect */
@@ -61,7 +61,7 @@ h1 {
     min-width: 450px;
     min-height: none;
     width: 25vw;
-    height: 85vh;
+    height: 90vh;
 
     padding-top: 0vh;
 }
