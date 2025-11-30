@@ -18,6 +18,7 @@ body {
     cursor: url("media/cursors/1-Normal-Select.cur"), auto;
 }
 
+/* Keyframes for the background gradient */
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -30,19 +31,20 @@ body {
 	}
 }   
 
-/*Font settings*/
-h1,
-h2,
-p,
-ul {
+/* Font styling settings */
+#name {
     color: white;
+    text-align: center;
+    font-size: calc(5vw + 1rem);
+}
+
+.card p, ul, li {
+    color: white;
+    margin: 3px 10px;
     font-family: sans-serif;
 }
 
-h1 {
-    text-align: center;
-}
-
+/* Card size and background settings */
 .card {
     /* fallback for old browsers */
     background: rgba(86,131,124, 0.65);
@@ -66,16 +68,12 @@ h1 {
     padding-top: 0vh;
 }
 
-.card h1,
-h2,
-p {
-    margin: 10px;
-}
-
+/* Card hover settings */
 .card:hover {
     box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.6);
 }
 
+/* Avatar shaping and sizing */
 .avatar {
     background-color: #aa4b6b;
     border-radius: 50%;
@@ -88,17 +86,19 @@ p {
     width: 150px;
 }
 
+/* Avatar hover effect */
 .avatar:hover {
     rotate: 360deg;
     transition: 0.6s;
 }
 
+/* Name styling */
 #name {
-    font-size: 35px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
+/* Button Styling */
 .button {
     margin: auto;
     background-color: #ffffff;
@@ -140,8 +140,4 @@ p {
   font-family: "Tomorrow", sans-serif;
   font-weight: 600;
   font-style: normal;
-}
-
-.card p,li{
-    font-size: 1.75rem;
 }
